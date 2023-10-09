@@ -15,6 +15,19 @@ import SingleThought from './pages/SingleThought';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { Dropdown} from './components/Header/Dropdown.js';
+import { Element} from './components/Header/Element.js';
+
+function App() {
+  return (
+    <>
+      <Dropdown>
+        <Element />
+      </Dropdown>
+    </>
+  )
+}
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
