@@ -1,3 +1,41 @@
+.DropdownButton {
+
+  color: white;
+
+  background-color: blue;
+  border-radius: 5px;
+
+  padding: 5px;
+
+  width: max-content;
+
+}
+
+.noselect {
+
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+.DropdownElement {
+
+  color: white;
+
+  background-color: green;
+  border-radius: 5px;
+
+  padding: 5px;
+
+  width: max-content;
+
+}
+
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
