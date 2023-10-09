@@ -1,7 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './index.css';
+import App from './App'
+
+reactDom.render(<App />, document.getElementById('root'));
 
 import Auth from '../../utils/auth';
+
+import { Dropdown} from './Dropdown.js';
+import { ElementRef } from './Element.js';
+
+function App() {
+  return (
+    <div className="App">
+      <Dropdown>
+        <ElementRef />
+      </Dropdown>
+    </div>
+  );
+}
+
+export default App;
+
 
 const Header = () => {
   const logout = (event) => {
